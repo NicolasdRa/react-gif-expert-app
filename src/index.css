@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h2 {
+  padding: 0 2rem;
+}
+
+input {
+  color: grey;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  width: 70%;
+}
+
+ol {
+  margin-left: 1rem;
+}
+
+.subtitle {
+  margin-left: 2rem;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid rgb(214, 211, 211);
+  border-radius: 8px;
+  width: 20rem;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.card p {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.card img {
+  object-fit: cover;
+  max-height: 20rem;
+  /* padding-bottom: 1rem; */
+}
